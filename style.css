@@ -1,6 +1,6 @@
 body{
 
-    background: blue;
+    background: rgb(209, 211, 86);
 }
 
 h1 {
@@ -16,7 +16,7 @@ p{
 }
 
 #ola {
-    color: white;
+    color: rgb(10, 9, 9);
 }
 #tituloCertas{
     font: arial;
@@ -43,7 +43,7 @@ section p{
     justify-content: space-between;     
     
 }
-#divCerta1 {
+#certas {
     
     border: 5px solid;
     display: inline-block;
@@ -54,15 +54,32 @@ section p{
 #certa1{
     color: black;
 }
-#divErrada2 {
+#certa2{
+    color: black;
+}
+#certa3{
+    color: black;
+}
+
+#erradas {
     
     border: 5px solid;
     display: inline-block;
     background-color: white;
     padding: 200px;
 }
+
+#errada1{
+    color: black;
+}
 #errada2{
     color: black;
 }
+#errada3{
+    color: black;
+}
+
+
+
 
 

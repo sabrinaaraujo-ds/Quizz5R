@@ -12,29 +12,29 @@ if(resposta == "2" ){
 
     const resposta1 = window.prompt("Qual o resultado desta soma: 5+2 \n a. 6 \n b. 7 \n c. 9")
     if(resposta1 ==="b"){
-       const divCerta1 = document.getElementById('divCerta1').innerHTML = "Pergunta 1"
+       const certa = document.getElementById('certa1').innerHTML = "Pergunta 1"
         
     }else {
-        const divErrada1 = document.getElementById('divErrada1').innerHTML = "Pergunta 1"
+        const errada1 = document.getElementById('errada1').innerHTML = "Pergunta 1"
     }    
 
     
         
     const resposta2 = window.prompt("Qual a capital do Brasil? \n a. Belém \n b. Brasília \n c. Fortaleza ")
-    if(resposta1 ==="b"){
-        const divCerta2 = document.getElementById('divCerta2').innerHTML = "Pergunta 2"
+    if(resposta2 ==="b"){
+        const certa2 = document.getElementById('certa2').innerHTML = "Pergunta 2"
          
      }else {
-         const divErrada2 = document.getElementById('divErrada2').innerHTML = "Pergunta 2"
+         const errada2 = document.getElementById('errada2').innerHTML = "Pergunta 2"
      }   
     
  
     const resposta3 = window.prompt("Qual o resultado da subtração: 12-4 \n a. 8 \n b. 3 \n c. 6")
-    if(resposta1 ==="a"){
-        const divCerta3 = document.getElementById('divCerta3').innerHTML = "Pergunta 3"
+    if(resposta3 ==="a"){
+        const certa3 = document.getElementById('certa3').innerHTML = "Pergunta 3"
          
      }else {
-         const divErrada3 = document.getElementById('divErrada3').innerHTML = "Pergunta 3"
+         const errada3 = document.getElementById('errada3').innerHTML = "Pergunta 3"
      }   
     
 
