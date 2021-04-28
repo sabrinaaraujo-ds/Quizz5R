@@ -1,0 +1,68 @@
+body{
+
+    background: blue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+#ola {
+    color: white;
+}
+#tituloCertas{
+    font: arial;
+    font-size: 50px;    
+    text-align: center;
+    display: inline-block;
+    justify-content: space-between;   
+
+}
+#tituloErradas{
+    font: arial;
+    font-size: 50px;    
+    text-align: center;
+    display: inline-block;
+    justify-content: space-between;   
+
+}
+
+section p{
+    color: black;
+    font: arial;
+    font-size: 50px;    
+    text-align: center;
+    justify-content: space-between;     
+    
+}
+#divCerta1 {
+    
+    border: 5px solid;
+    display: inline-block;
+    background-color: white;
+    padding: 200px;
+}
+
+#certa1{
+    color: black;
+}
+#divErrada2 {
+    
+    border: 5px solid;
+    display: inline-block;
+    background-color: white;
+    padding: 200px;
+}
+#errada2{
+    color: black;
+}
+
+
